@@ -1,0 +1,56 @@
+body {
+	color: #aaa;
+	font-family: Arial;
+	background-color: #333;
+}
+canvas {
+	background-color: white;
+	box-shadow: 0px 0px 10px 2px black;
+}
+#content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#colorContainer {
+	background-color: cyan;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#red {
+	background-color: #ff0000;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	flex: auto;
+}
+#blue {
+	background-color: #0000ff;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	flex: auto;
+}
+#green {
+	background-color: #00ff00;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	flex: auto;
+}
+#black {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	flex: auto;
+}
+#grey {
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	flex: auto;
+}
